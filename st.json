@@ -1,0 +1,760 @@
+{
+	//==================================================
+	// Standard function blocks
+	//==================================================
+	"SR": {
+		"prefix": "SR",
+		"body": [
+			"sr_$1(",
+			"\tS1 := ${2:(*BOOL*)},",
+			"\tR := ${3:(*BOOL*)},",
+			"Q1 => ${4:(*BOOL*)});",
+		],
+		"description": "The SR bistable is a latch where the Set dominates"
+	},
+	"RS": {
+		"prefix": "RS",
+		"body": [
+			"rs_$1(",
+			"\tS := ${2:(*BOOL*)},",
+			"\tR1 := ${3:(*BOOL*)},",
+			"Q1 => ${4:(*BOOL*)});",
+		],
+		"description": "The SR bistable is a latch where the Reset dominates"
+	},
+	"R_TRIG": {
+		"prefix": "R_TRIG",
+		"body": [
+			"rtrig_$1(",
+			"\tCLK := ${2:(*BOOL*)},",
+			"\tQ => ${3:(*BOOL*)});"
+		],
+		"description": "The output produces a single pulse when a rising edge is detected."
+	},
+	"F_TRIG": {
+		"prefix": "F_TRIG",
+		"body": [
+			"ftrig_$1(",
+			"\tCLK := ${2:(*BOOL*)},",
+			"\tQ => ${3:(*BOOL*)});"
+		],
+		"description": "The output produces a single pulse when a falling edge is detected."
+	},
+	"SEMA": {
+		"prefix": "SEMA",
+		"body": [
+			"sema_$1(",
+			"\tCLAIM := ${2:(*BOOL*)},",
+			"\tRELEASE := ${3:(*BOOL*)},",
+			"\tBUSY := ${4:(*BOOL*)});"
+		],
+		"description": "The semaphore provides a mechanism to allow software elements mutually exclusive access to certain resources."
+	},
+	"CTU": {
+		"prefix": "CTU_INT",
+		"body": [
+			"ctu_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tR := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*INT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*INT*)});"
+		],
+		"description": "The up-counter can be used to signal when a count has reached a maximum value."
+	},
+	"CTU_DINT": {
+		"prefix": "CTU_DINT",
+		"body": [
+			"ctudi_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tR := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*DINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*DINT*)});"
+		],
+		"description": "The up-counter can be used to signal when a count has reached a maximum value."
+	},
+	"CTU_LINT": {
+		"prefix": "CTU_LINT",
+		"body": [
+			"ctuli_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tR := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*LINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*LINT*)});"
+		],
+		"description": "The up-counter can be used to signal when a count has reached a maximum value."
+	},
+	"CTU_UDINT": {
+		"prefix": "CTU_UDINT",
+		"body": [
+			"ctuudi_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tR := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*UDINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*UDINT*)});"
+		],
+		"description": "The up-counter can be used to signal when a count has reached a maximum value."
+	},
+	"CTU_ULINT": {
+		"prefix": "CTU_ULINT",
+		"body": [
+			"ctuuli_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tR := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*ULINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*ULINT*)});"
+		],
+		"description": "The up-counter can be used to signal when a count has reached a maximum value."
+	},
+	"CTD": {
+		"prefix": "CTU",
+		"body": [
+			"ctd_$1(",
+			"\tCD := ${2:(*BOOL*)},",
+			"\tLD := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*INT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*INT*)});"
+		],
+		"description": "The down-counter can be used to signal when a count has reached zero, on counting down from a preset value."
+	},
+	"CTD_DINT": {
+		"prefix": "CTU_DINT",
+		"body": [
+			"ctddi_$1(",
+			"\tCD := ${2:(*BOOL*)},",
+			"\tLD := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*DINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*DINT*)});"
+		],
+		"description": "The down-counter can be used to signal when a count has reached zero, on counting down from a preset value."
+	},
+	"CTD_LINT": {
+		"prefix": "CTU_LINT",
+		"body": [
+			"ctdli_$1(",
+			"\tCD := ${2:(*BOOL*)},",
+			"\tLD := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*LINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*LINT*)});"
+		],
+		"description": "The down-counter can be used to signal when a count has reached zero, on counting down from a preset value."
+	},
+	"CTD_UDINT": {
+		"prefix": "CTU_UDINT",
+		"body": [
+			"ctdudi_$1(",
+			"\tCD := ${2:(*BOOL*)},",
+			"\tLD := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*UDINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*UDINT*)});"
+		],
+		"description": "The down-counter can be used to signal when a count has reached zero, on counting down from a preset value."
+	},
+	"CTD_ULINT": {
+		"prefix": "CTU_ULINT",
+		"body": [
+			"ctduli_$1(",
+			"\tCD := ${2:(*BOOL*)},",
+			"\tLD := ${3:(*BOOL*)},",
+			"\tPV := ${4:(*ULINT*)},",
+			"\tQ => ${5:(*BOOL*)},",
+			"\tCV => ${6:(*ULINT*)});"
+		],
+		"description": "The down-counter can be used to signal when a count has reached zero, on counting down from a preset value."
+	},
+	"CTUD": {
+		"prefix": "CTUD",
+		"body": [
+			"ctud_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tCD := ${3:(*BOOL*)},",
+			"\tR := ${4:(*BOOL*)},",
+			"\tLD := ${5:(*BOOL*)},",
+			"\tPV := ${6:(*INT*)},",
+			"\tQU => ${7:(*BOOL*)},",
+			"\tQD => ${8:(*BOOL*)},",
+			"\tCV => ${9:(*INT*)},",
+			"\tCD_T => ${10:(*R_TRIG*)},",
+			"\tCU_T => ${11:(*R_TRIG*)});"
+		],
+		"description": "The up-down counter has two inputs CU and CD. It can be used to both count up on one input and down on the other."
+	},
+	"CTUD_DINT": {
+		"prefix": "CTUD_DINT",
+		"body": [
+			"ctuddi_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tCD := ${3:(*BOOL*)},",
+			"\tR := ${4:(*BOOL*)},",
+			"\tLD := ${5:(*BOOL*)},",
+			"\tPV := ${6:(*DINT*)},",
+			"\tQU => ${7:(*BOOL*)},",
+			"\tQD => ${8:(*BOOL*)},",
+			"\tCV => ${9:(*DINT*)},",
+			"\tCD_T => ${10:(*R_TRIG*)},",
+			"\tCU_T => ${11:(*R_TRIG*)});"
+		],
+		"description": "The up-down counter has two inputs CU and CD. It can be used to both count up on one input and down on the other."
+	},
+	"CTUD_LINT": {
+		"prefix": "CTUD_LINT",
+		"body": [
+			"ctudLi_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tCD := ${3:(*BOOL*)},",
+			"\tR := ${4:(*BOOL*)},",
+			"\tLD := ${5:(*BOOL*)},",
+			"\tPV := ${6:(*LINT*)},",
+			"\tQU => ${7:(*BOOL*)},",
+			"\tQD => ${8:(*BOOL*)},",
+			"\tCV => ${9:(*LINT*)},",
+			"\tCD_T => ${10:(*R_TRIG*)},",
+			"\tCU_T => ${11:(*R_TRIG*)});"
+		],
+		"description": "The up-down counter has two inputs CU and CD. It can be used to both count up on one input and down on the other."
+	},
+	"CTUD_UDINT": {
+		"prefix": "CTUD_UDINT",
+		"body": [
+			"ctududi_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tCD := ${3:(*BOOL*)},",
+			"\tR := ${4:(*BOOL*)},",
+			"\tLD := ${5:(*BOOL*)},",
+			"\tPV := ${6:(*UDINT*)},",
+			"\tQU => ${7:(*BOOL*)},",
+			"\tQD => ${8:(*BOOL*)},",
+			"\tCV => ${9:(*UDINT*)},",
+			"\tCD_T => ${10:(*R_TRIG*)},",
+			"\tCU_T => ${11:(*R_TRIG*)});"
+		],
+		"description": "The up-down counter has two inputs CU and CD. It can be used to both count up on one input and down on the other."
+	},
+	"CTUD_ULINT": {
+		"prefix": "CTUD_ULINT",
+		"body": [
+			"ctuduli_$1(",
+			"\tCU := ${2:(*BOOL*)},",
+			"\tCD := ${3:(*BOOL*)},",
+			"\tR := ${4:(*BOOL*)},",
+			"\tLD := ${5:(*BOOL*)},",
+			"\tPV := ${6:(*ULINT*)},",
+			"\tQU => ${7:(*BOOL*)},",
+			"\tQD => ${8:(*BOOL*)},",
+			"\tCV => ${9:(*ULINT*)},",
+			"\tCD_T => ${10:(*R_TRIG*)},",
+			"\tCU_T => ${11:(*R_TRIG*)});"
+		],
+		"description": "The up-down counter has two inputs CU and CD. It can be used to both count up on one input and down on the other."
+	},
+	"TP": {
+		"prefix": "TP",
+		"body": [
+			"tp_$1(",
+			"\tIN := ${2:(*BOOL*)},",
+			"\tPT := ${3:(*TIME*)},",
+			"\tQ => ${4:(*BOOL*)},",
+			"\tET => ${5:(*BOOL*)});"
+		],
+		"description": "The pulse timer can be used to generate output pulses of a given time duration."
+	},
+	"TON": {
+		"prefix": "TON",
+		"body": [
+			"ton_$1(",
+			"\tIN := ${2:(*BOOL*)},",
+			"\tPT := ${3:(*TIME*)},",
+			"\tQ => ${4:(*BOOL*)},",
+			"\tET => ${5:(*TIME*)});"
+		],
+		"description": "The on-delay timer can be used to delay setting an output true, for fixed period after an input becomes true."
+	},
+	"TOF": {
+		"prefix": "TOF",
+		"body": [
+			"tof_$1(",
+			"\tIN := ${2:(*BOOL*)},",
+			"\tPT := ${3:(*TIME*)},",
+			"\tQ => ${4:(*BOOL*)},",
+			"\tET => ${5:(*TIME*)});"
+		],
+		"description": "The off-delay timer can be used to delay setting an output false, for fixed period after input goes false."
+	},
+	//==================================================
+	// Additional function blocks
+	//==================================================
+	"RTC": {
+		"prefix": "RTC",
+		"body": [
+			"rtc_$1(",
+			"\tIN := ${2:(*BOOL*)},",
+			"\tPDT := ${3:(*DT*)},",
+			"\tQ => ${4:(*BOOL)},",
+			"\tCDT => ${5:(*DT*)});"
+		],
+		"description": "The real time clock has many uses including time stamping, setting dates and times of day in batch reports, in alarm messages and so on."
+	},
+	"INTEGRAL": {
+		"prefix": "INTEGRAL",
+		"body": [
+			"integr_$1(",
+			"\tR1 := ${2:(*BOOL*)},",
+			"\tXIN := ${3:(*REAL*)},",
+			"\tX0 := ${4:(*REAL*)},",
+			"\tCYCLE := ${5:(*TIME*)},",
+			"\tQ => ${6:(*BOOL*)},",
+			"\tXOUT => ${7:(*REAL*)});"
+		],
+		"description": "The integral function block integrates the value of input XIN over time. "
+	},
+	"DERIVATIVE": {
+		"prefix": "DERIVATIVE",
+		"body": [
+			"deriv_$1(",
+			"\tRUN := ${2:(*BOOL*)},",
+			"\tXIN := ${3:(*REAL*)},",
+			"\tCYCLE := ${4:(*TIME*)},",
+			"\tXOUT := ${5:(*REAL*)});,"
+		],
+		"description": "The derivative function block produces an output XOUT proportional to the rate of change of the input XIN. "
+	},
+	"PID": {
+		"prefix": "PID",
+		"body": [
+			"pid_$1(",
+			"\tAUTO := ${2:(*BOOL*)},",
+			"\tPV := ${3:(*REAL*)},",
+			"\tSP := ${4:(*REAL*)},",
+			"\tX0 := ${5:(*REAL*)},",
+			"\tKP := ${6:(*REAL*)},",
+			"\tTR := ${7:(*REAL*)},",
+			"\tTD := ${8:(*REAL*)},",
+			"\tCYCLE := ${9:(*TIME*)},",
+			"\tXOUT => ${10:(*REAL*)});"
+		],
+		"description": "The PID (proportional, Integral, Derivative) function block provides the classical three term controller for closed loop control."
+	},
+	"RAMP": {
+		"prefix": "RAMP",
+		"body": [
+			"ramp_$1(",
+			"\tRUN := ${2:(*REAL*)},",
+			"\tX0 := ${3:(*REAL*)},",
+			"\tX1 := ${4:(*REAL*)},",
+			"\tTR := ${5:(*TIME*)},",
+			"\tCYCLE := ${6:(*TIME*)},",
+			"\tBUSY => ${7:(*BOOL*)},",
+			"\tXOUT => ${8:(*REAL*)},",
+		]
+	},
+	"HYSTERESIS": {
+		"prefix": "HYSTERESIS",
+		"body": [
+			"hys_$1(",
+			"\tXIN1 := ${2:(*REAL*)},",
+			"\tXIN2 := ${3:(*REAL*)},",
+			"\tEPS := ${4:(*REAL*)},",
+			"\tQ => ${5:(*BOOL*)});"
+		],
+		"description": "The hysteresis function block provides a hysteresis boolean output driven by the difference of two floating point (REAL) inputs XIN1 and XIN2."
+	},  
+	//==================================================
+	// Type conversion (one snippet for all)
+	//==================================================
+    "TYPE CONVERSION": {
+		"prefix": "TO",
+		"body": [
+			"${1:(*TYPE1*)}_TO_${2:(*TYPE2*)}(",
+			"\tIN := ${3:(*${1:(*TYPE1*)}*)},",
+			"\tOUT => ${4:(*${2:(*TYPE2*)}*)});"
+		],
+		"description": "Data type conversion"
+	},
+	//==================================================
+	// Numerical
+	//==================================================
+	"ABS": {
+		"prefix": "ABS",
+		"body": [
+			"ABS(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Absolute number"
+	},
+	"SQRT": {
+		"prefix": "SQRT",
+		"body": [
+			"SQRT(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Square root (base 2)"
+	},
+	"LN": {
+		"prefix": "LN",
+		"body": [
+			"LN(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Natural logarithm"
+	},
+	"LOG": {
+		"prefix": "LOG",
+		"body": [
+			"LOG(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Logarithm to base 10"
+	},
+	"EXP": {
+		"prefix": "EXP",
+		"body": [
+			"EXP(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Exponentiation"
+	},
+	"SIN": {
+		"prefix": "SIN",
+		"body": [
+			"SIN(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Sine"
+	},
+	"COS": {
+		"prefix": "COS",
+		"body": [
+			"COS(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Cosine"
+	},
+	"TAN": {
+		"prefix": "TAN",
+		"body": [
+			"TAN(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Tangent"
+	},
+	"ASIN": {
+		"prefix": "ASIN",
+		"body": [
+			"ASIN(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Arc sine"
+	},
+	"ACOS": {
+		"prefix": "ACOS",
+		"body": [
+			"ACOS(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Arc cosine"
+	},
+	"ATAN": {
+		"prefix": "ATAN",
+		"body": [
+			"ATAN(",
+			"\tIN := ${1:(*ANY_NUM*)},",
+			"\tOUT => ${2:(*ANY_NUM*)},",
+		],
+		"description": "Arc tangent"
+	},
+	//==================================================
+	// Arithmetic
+	//==================================================
+	"MOD": {
+		"prefix": "MOD",
+		"body": [
+			"MOD(",
+			"\tIN1 := ${1:(*ANY_INT*)},",
+			"\tIN2 := ${2:(*ANY_INT*)},",
+			"\tOUT => ${3:(*ANY_INT*)});"
+		],
+		"description": "Remainder (modulo)"
+	},
+	"EXPT": {
+		"prefix": "EXPT",
+		"body": [
+			"EXPT(",
+			"\tIN1 := ${1:(*ANY_REAL*)},",
+			"\tIN2 := ${2:(*ANY_NUM*)},",
+			"\tOUT => ${3:(*ANY_REAL*)});"
+		],
+		"description": "Exponent"
+	},
+	//==================================================
+	// Time
+	//==================================================
+
+	//==================================================
+	// Bit-shift
+	//==================================================
+	"SHL": {
+		"prefix": "SHL",
+		"body": [
+			"SHL(",
+			"\tIN := ${1:(*ANY_BIT*),",
+			"\tN := ${2:(*ANY_INT*),",
+			"\tOUT => ${3:(*ANY_BIT*));"
+		],
+		"description": "Shift left"
+	},
+	"SHR": {
+		"prefix": "SHR",
+		"body": [
+			"SHR(",
+			"\tIN := ${1:(*ANY_BIT*),",
+			"\tN := ${2:(*ANY_INT*),",
+			"\tOUT => ${3:(*ANY_BIT*));"
+		],
+		"description": "Shift right"
+	},
+	"ROR": {
+		"prefix": "ROR",
+		"body": [
+			"ROR(",
+			"\tIN := ${1:(*ANY_NBIT*),",
+			"\tN := ${2:(*ANY_INT*),",
+			"\tOUT => ${3:(*ANY_NBIT*));"
+		],
+		"description": "Rotate right"
+	},
+	"ROL": {
+		"prefix": "ROL",
+		"body": [
+			"ROL(",
+			"\tIN := ${1:(*ANY_NBIT*),",
+			"\tN := ${2:(*ANY_INT*),",
+			"\tOUT => ${3:(*ANY_NBIT*));"
+		],
+		"description": "Rotate left"
+	},
+	//==================================================
+	// Bitwise
+	//==================================================
+	"AND": {
+		"prefix": "AND",
+		"body": [
+			"AND(",
+			"\tIN1 := ${1:(*ANY_BIT*),",
+			"\tIN2 := ${2:(*ANY_BIT*),",
+			"\tOUT => ${3:(*ANY_BIT*));"
+		],
+		"description": "Bitwise AND"
+	},
+	"OR": {
+		"prefix": "OR",
+		"body": [
+			"OR(",
+			"\tIN1 := ${1:(*ANY_BIT*),",
+			"\tIN2 := ${2:(*ANY_BIT*),",
+			"\tOUT => ${3:(*ANY_BIT*));"
+		],
+		"description": "Bitwise OR"
+	},
+	"XOR": {
+		"prefix": "XOR",
+		"body": [
+			"XOR(",
+			"\tIN1 := ${1:(*ANY_BIT*),",
+			"\tIN2 := ${2:(*ANY_BIT*),",
+			"\tOUT => ${3:(*ANY_BIT*));"
+		],
+		"description": "Bitwise XOR"
+	},
+	"NOT": {
+		"prefix": "NOT",
+		"body": [
+			"NOT(",
+			"\tIN1 := ${1:(*ANY_BIT*),",
+			"\tIN2 := ${2:(*ANY_BIT*),",
+			"\tOUT => ${3:(*ANY_BIT*));"
+		],
+		"description": "Bitwise inverting"
+	},
+	//==================================================
+	// Selection
+	//==================================================
+	"SEL": {
+		"prefix": "SEL",
+		"body": [
+			"SEL(",
+			"\tG := ${1:(*BOOL*),",
+			"\tIN0 := ${2:(*ANY*),",
+			"\tIN1 := ${3:(*ANY*),",
+			"\tOUT => ${4:(*ANY*));"
+		],
+		"description": "Binary selection (1 of 2)."
+	},
+	"MAX": {
+		"prefix": "MAX",
+		"body": [
+			"MAX(",
+			"\tIN1 := ${1:(*ANY*),",
+			"\tIN2 := ${2:(*ANY*),",
+			"\tOUT => ${2:(*ANY*));"
+		],
+		"description": "Maximum"
+	},
+	"MIN": {
+		"prefix": "MIN",
+		"body": [
+			"MIN(",
+			"\tIN1 := ${1:(*ANY*),",
+			"\tIN2 := ${2:(*ANY*),",
+			"\tOUT => ${2:(*ANY*));"
+		],
+		"description": "Minimum"
+	},
+	"LIMIT": {
+		"prefix": "LIMIT",
+		"body": [
+			"LIMIT(",
+			"\tMN := ${1:(*ANY*),",
+			"\tIN := ${2:(*ANY*),",
+			"\tMX := ${3:(*ANY*),",
+			"\tOUT => ${4:(*ANY*));"
+		],
+		"description": "Limitation"
+	},
+	"MUX": {
+		"prefix": "MUX",
+		"body": [
+			"MUX(",
+			"\tK := ${1:(*ANY_INT*)},",
+			"\tIN0 := ${2:(*ANY*)},",
+			"\tIN1 := ${3:(*ANY*)},",
+			"\tOUT := ${4:(*ANY*)});"
+		],
+		"description": "Multiplexer (select 1 of N)."
+	},
+	//==================================================
+	// Character string
+	//==================================================
+	"LEN": {
+		"prefix": "LEN",
+		"body": [
+			"LEN(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*INT*)});"
+		],
+		"description": "Length of string"
+	},
+	"LEFT": {
+		"prefix": "LEFT",
+		"body": [
+			"LEFT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tL := ${2:(*ANY_INT*)},",
+			"\tOUT := ${3:(*STRING*)});"
+		],
+		"description": "String left of"
+	},
+	"RIGHT": {
+		"prefix": "RIGHT",
+		"body": [
+			"RIGHT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tL := ${2:(*ANY_INT*)},",
+			"\tOUT := ${3:(*STRING*)});"
+		],
+		"description": "String right of"
+	},
+	"MID": {
+		"prefix": "MID",
+		"body": [
+			"MID(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tL := ${2:(*ANY_INT*)},",
+			"\tP := ${3:(*ANY_INT*)},",
+			"\tOUT => ${4:(*STRING*)},",
+		],
+		"description": "String form the middle."
+	},
+	"CONCAT": {
+		"prefix": "CONCAT",
+		"body": [
+			"CONCAT(",
+			"\tIN1 := ${1:(*STRING*)},",
+			"\tIN2 := ${2:(*STRING*)},",
+			"\tOUT => ${3:(*STRING*)});"
+		],
+		"description": "Concatenation"
+	},
+	"CONCAT_DAT_TOD": {
+		"prefix": "CONCAT_DAT_TOD",
+		"body": [
+			"CONCAT_DAT_TOD(",
+			"\tIN1 := ${1:(*DATE*)},",
+			"\tIN2 := ${2:(*TOD*)},",
+			"\tOUT => ${3:(*DT*)});"
+		],
+		"description": "Time concatenation"
+	},
+	"INSERT": {
+		"prefix": "INSERT",
+		"body": [
+			"INSERT(",
+			"\tIN1 := ${1:(*STRING*)},",
+			"\tIN2 := ${2:(*STRING*)},",
+			"\tP := ${3:(*ANY_INT*)},",
+			"\tOUT => ${4:(*STRING*)});"
+		],
+		"description": "Insertion (into)"
+	},
+	"DELETE": {
+		"prefix": "DELETE",
+		"body": [
+			"DELETE(",
+			"\tIN1 := ${1:(*STRING*)},",
+			"\tL := ${2:(*ANY_INT*)},",
+			"\tP := ${3:(*ANY_INT*)},",
+			"\tOUT => ${4:(*STRING*)});"
+		],
+		"description": "Deletion (within)"
+	},
+	"REPLACE": {
+		"prefix": "REPLACE",
+		"body": [
+			"REPLACE(",
+			"\tIN1 := ${1:(*STRING*)},",
+			"\tIN2 := ${2:(*STRING*)},",
+			"\tL := ${3:(*ANY_INT*)},",
+			"\tP := ${4:(*ANY_INT*)},",
+			"\tOUT => ${5:(*STRING*)});"
+		],
+		"description": "Replacement (within)"
+	},
+	"FIND": {
+		"prefix": "FIND",
+		"body": [
+			"FIND(",
+			"\tIN1 := ${1:(*STRING*)},",
+			"\tIN2 := ${2:(*STRING*)},",
+			"\tOUT => ${3:(*INT*)});"
+		],
+		"description": "Find position"
+	}
+
+}
