@@ -378,6 +378,3345 @@
 		],
 		"description": "Data type conversion"
 	},
+	"REAL_TO_SINT": {
+		"prefix": "REAL_TO_SINT",
+		"body": [
+			"REAL_TO_SINT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_LINT": {
+		"prefix": "REAL_TO_LINT",
+		"body": [
+			"REAL_TO_LINT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_DINT": {
+		"prefix": "REAL_TO_DINT",
+		"body": [
+			"REAL_TO_DINT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_DATE": {
+		"prefix": "REAL_TO_DATE",
+		"body": [
+			"REAL_TO_DATE(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_DWORD": {
+		"prefix": "REAL_TO_DWORD",
+		"body": [
+			"REAL_TO_DWORD(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_DT": {
+		"prefix": "REAL_TO_DT",
+		"body": [
+			"REAL_TO_DT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_TOD": {
+		"prefix": "REAL_TO_TOD",
+		"body": [
+			"REAL_TO_TOD(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_UDINT": {
+		"prefix": "REAL_TO_UDINT",
+		"body": [
+			"REAL_TO_(UDINT",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_WORD": {
+		"prefix": "REAL_TO_WORD",
+		"body": [
+			"REAL_TO_WORD(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_STRING": {
+		"prefix": "REAL_TO_STRING",
+		"body": [
+			"REAL_TO_STRING(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_LWORD": {
+		"prefix": "REAL_TO_LWORD",
+		"body": [
+			"REAL_TO_LWORD(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_UINT": {
+		"prefix": "REAL_TO_UINT",
+		"body": [
+			"REAL_TO_UINT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_LREAL": {
+		"prefix": "REAL_TO_LREAL",
+		"body": [
+			"REAL_TO_LREAL(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_BYTE": {
+		"prefix": "REAL_TO_BYTE",
+		"body": [
+			"REAL_TO_BYTE(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_USINT": {
+		"prefix": "REAL_TO_USINT",
+		"body": [
+			"REAL_TO_USINT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_ULINT": {
+		"prefix": "REAL_TO_ULINT",
+		"body": [
+			"REAL_TO_ULINT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_BOOL": {
+		"prefix": "REAL_TO_BOOL",
+		"body": [
+			"REAL_TO_BOOL(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_TIME": {
+		"prefix": "REAL_TO_TIME",
+		"body": [
+			"REAL_TO_TIME(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"REAL_TO_INT": {
+		"prefix": "REAL_TO_INT",
+		"body": [
+			"REAL_TO_INT(",
+			"\tIN := ${1:(*REAL*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_REAL": {
+		"prefix": "SINT_TO_REAL",
+		"body": [
+			"SINT_TO_REAL(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_LINT": {
+		"prefix": "SINT_TO_LINT",
+		"body": [
+			"SINT_TO_LINT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_DINT": {
+		"prefix": "SINT_TO_DINT",
+		"body": [
+			"SINT_TO_DINT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_DATE": {
+		"prefix": "SINT_TO_DATE",
+		"body": [
+			"SINT_TO_DATE(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_DWORD": {
+		"prefix": "SINT_TO_DWORD",
+		"body": [
+			"SINT_TO_DWORD(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_DT": {
+		"prefix": "SINT_TO_DT",
+		"body": [
+			"SINT_TO_DT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_TOD": {
+		"prefix": "SINT_TO_TOD",
+		"body": [
+			"SINT_TO_TOD(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_UDINT": {
+		"prefix": "SINT_TO_UDINT",
+		"body": [
+			"SINT_TO_UDINT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_WORD": {
+		"prefix": "SINT_TO_WORD",
+		"body": [
+			"SINT_TO_WORD(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_STRING": {
+		"prefix": "SINT_TO_STRING",
+		"body": [
+			"SINT_TO_STRING(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_LWORD": {
+		"prefix": "SINT_TO_LWORD",
+		"body": [
+			"SINT_TO_LWORD(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_UINT": {
+		"prefix": "SINT_TO_UINT",
+		"body": [
+			"SINT_TO_UINT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_LREAL": {
+		"prefix": "SINT_TO_LREAL",
+		"body": [
+			"SINT_TO_LREAL(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_BYTE": {
+		"prefix": "SINT_TO_BYTE",
+		"body": [
+			"SINT_TO_BYTE(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_USINT": {
+		"prefix": "SINT_TO_USINT",
+		"body": [
+			"SINT_TO_USINT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_ULINT": {
+		"prefix": "SINT_TO_ULINT",
+		"body": [
+			"SINT_TO_ULINT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_BOOL": {
+		"prefix": "SINT_TO_BOOL",
+		"body": [
+			"SINT_TO_BOOL(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_TIME": {
+		"prefix": "SINT_TO_TIME",
+		"body": [
+			"SINT_TO_TIME(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"SINT_TO_INT": {
+		"prefix": "SINT_TO_INT",
+		"body": [
+			"SINT_TO_INT(",
+			"\tIN := ${1:(*SINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_REAL": {
+		"prefix": "LINT_TO_REAL",
+		"body": [
+			"LINT_TO_REAL(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_SINT": {
+		"prefix": "LINT_TO_SINT",
+		"body": [
+			"LINT_TO_SINT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_DINT": {
+		"prefix": "LINT_TO_DINT",
+		"body": [
+			"LINT_TO_DINT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_DATE": {
+		"prefix": "LINT_TO_DATE",
+		"body": [
+			"LINT_TO_DATE(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_DWORD": {
+		"prefix": "LINT_TO_DWORD",
+		"body": [
+			"LINT_TO_DWORD(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_DT": {
+		"prefix": "LINT_TO_DT",
+		"body": [
+			"LINT_TO_DT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_TOD": {
+		"prefix": "LINT_TO_TOD",
+		"body": [
+			"LINT_TO_TOD(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_UDINT": {
+		"prefix": "LINT_TO_UDINT",
+		"body": [
+			"LINT_TO_UDINT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_WORD": {
+		"prefix": "LINT_TO_WORD",
+		"body": [
+			"LINT_TO_WORD(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_STRING": {
+		"prefix": "LINT_TO_STRING",
+		"body": [
+			"LINT_TO_STRING(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_LWORD": {
+		"prefix": "LINT_TO_LWORD",
+		"body": [
+			"LINT_TO_LWORD(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_UINT": {
+		"prefix": "LINT_TO_UINT",
+		"body": [
+			"LINT_TO_UINT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_LREAL": {
+		"prefix": "LINT_TO_LREAL",
+		"body": [
+			"LINT_TO_LREAL(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_BYTE": {
+		"prefix": "LINT_TO_BYTE",
+		"body": [
+			"LINT_TO_BYTE(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_USINT": {
+		"prefix": "LINT_TO_USINT",
+		"body": [
+			"LINT_TO_USINT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_ULINT": {
+		"prefix": "LINT_TO_ULINT",
+		"body": [
+			"LINT_TO_ULINT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_BOOL": {
+		"prefix": "LINT_TO_BOOL",
+		"body": [
+			"LINT_TO_BOOL(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_TIME": {
+		"prefix": "LINT_TO_TIME",
+		"body": [
+			"LINT_TO_TIME(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LINT_TO_INT": {
+		"prefix": "LINT_TO_INT",
+		"body": [
+			"LINT_TO_INT(",
+			"\tIN := ${1:(*LINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_REAL": {
+		"prefix": "DINT_TO_REAL",
+		"body": [
+			"DINT_TO_REAL(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_LINT": {
+		"prefix": "DINT_TO_LINT",
+		"body": [
+			"DINT_TO_LINT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_SINT": {
+		"prefix": "DINT_TO_SINT",
+		"body": [
+			"DINT_TO_SINT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_DATE": {
+		"prefix": "DINT_TO_DATE",
+		"body": [
+			"DINT_TO_DATE(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_DWORD": {
+		"prefix": "DINT_TO_DWORD",
+		"body": [
+			"DINT_TO_DWORD(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_DT": {
+		"prefix": "DINT_TO_DT",
+		"body": [
+			"DINT_TO_DT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_TOD": {
+		"prefix": "DINT_TO_TOD",
+		"body": [
+			"DINT_TO_TOD(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_UDINT": {
+		"prefix": "DINT_TO_UDINT",
+		"body": [
+			"DINT_TO_UDINT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_WORD": {
+		"prefix": "DINT_TO_WORD",
+		"body": [
+			"DINT_TO_WORD(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_STRING": {
+		"prefix": "DINT_TO_STRING",
+		"body": [
+			"DINT_TO_STRING(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_LWORD": {
+		"prefix": "DINT_TO_LWORD",
+		"body": [
+			"DINT_TO_LWORD(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_UINT": {
+		"prefix": "DINT_TO_UINT",
+		"body": [
+			"DINT_TO_UINT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_LREAL": {
+		"prefix": "DINT_TO_LREAL",
+		"body": [
+			"DINT_TO_LREAL(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_BYTE": {
+		"prefix": "DINT_TO_BYTE",
+		"body": [
+			"DINT_TO_BYTE(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_USINT": {
+		"prefix": "DINT_TO_USINT",
+		"body": [
+			"DINT_TO_USINT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_ULINT": {
+		"prefix": "DINT_TO_ULINT",
+		"body": [
+			"DINT_TO_ULINT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_BOOL": {
+		"prefix": "DINT_TO_BOOL",
+		"body": [
+			"DINT_TO_BOOL(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_TIME": {
+		"prefix": "DINT_TO_TIME",
+		"body": [
+			"DINT_TO_TIME(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DINT_TO_INT": {
+		"prefix": "DINT_TO_INT",
+		"body": [
+			"DINT_TO_INT(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_REAL": {
+		"prefix": "DATE_TO_REAL",
+		"body": [
+			"DATE_TO_REAL(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_LINT": {
+		"prefix": "DATE_TO_LINT",
+		"body": [
+			"DATE_TO_LINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_DINT": {
+		"prefix": "DATE_TO_DINT",
+		"body": [
+			"DATE_TO_DINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_SINT": {
+		"prefix": "DATE_TO_SINT",
+		"body": [
+			"DATE_TO_SINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_DWORD": {
+		"prefix": "DATE_TO_DWORD",
+		"body": [
+			"DATE_TO_DWORD(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_UDINT": {
+		"prefix": "DATE_TO_UDINT",
+		"body": [
+			"DATE_TO_UDINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_WORD": {
+		"prefix": "DATE_TO_WORD",
+		"body": [
+			"DATE_TO_WORD(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_STRING": {
+		"prefix": "DATE_TO_STRING",
+		"body": [
+			"DATE_TO_STRING(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_LWORD": {
+		"prefix": "DATE_TO_LWORD",
+		"body": [
+			"DATE_TO_LWORD(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_UINT": {
+		"prefix": "DATE_TO_UINT",
+		"body": [
+			"DATE_TO_UINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_LREAL": {
+		"prefix": "DATE_TO_LREAL",
+		"body": [
+			"DATE_TO_LREAL(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_BYTE": {
+		"prefix": "DATE_TO_BYTE",
+		"body": [
+			"DATE_TO_BYTE(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_USINT": {
+		"prefix": "DATE_TO_USINT",
+		"body": [
+			"DATE_TO_USINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_ULINT": {
+		"prefix": "DATE_TO_ULINT",
+		"body": [
+			"DATE_TO_ULINT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DATE_TO_INT": {
+		"prefix": "DATE_TO_INT",
+		"body": [
+			"DATE_TO_INT(",
+			"\tIN := ${1:(*DATE*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_REAL": {
+		"prefix": "DWORD_TO_REAL",
+		"body": [
+			"DWORD_TO_REAL(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_SINT": {
+		"prefix": "DWORD_TO_SINT",
+		"body": [
+			"DWORD_TO_SINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_LINT": {
+		"prefix": "DWORD_TO_LINT",
+		"body": [
+			"DWORD_TO_LINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_DINT": {
+		"prefix": "DWORD_TO_DINT",
+		"body": [
+			"DWORD_TO_DINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_DATE": {
+		"prefix": "DWORD_TO_DATE",
+		"body": [
+			"DWORD_TO_DATE(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_DT": {
+		"prefix": "DWORD_TO_DT",
+		"body": [
+			"DWORD_TO_DT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_TOD": {
+		"prefix": "DWORD_TO_TOD",
+		"body": [
+			"DWORD_TO_TOD(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_UDINT": {
+		"prefix": "DWORD_TO_UDINT",
+		"body": [
+			"DWORD_TO_UDINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_WORD": {
+		"prefix": "DWORD_TO_WORD",
+		"body": [
+			"DWORD_TO_WORD(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_STRING": {
+		"prefix": "DWORD_TO_STRING",
+		"body": [
+			"DWORD_TO_STRING(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_LWORD": {
+		"prefix": "DWORD_TO_LWORD",
+		"body": [
+			"DWORD_TO_LWORD(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_UINT": {
+		"prefix": "DWORD_TO_UINT",
+		"body": [
+			"DWORD_TO_UINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_LREAL": {
+		"prefix": "DWORD_TO_LREAL",
+		"body": [
+			"DWORD_TO_LREAL(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_BYTE": {
+		"prefix": "DWORD_TO_BYTE",
+		"body": [
+			"DWORD_TO_BYTE(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_USINT": {
+		"prefix": "DWORD_TO_USINT",
+		"body": [
+			"DWORD_TO_USINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_ULINT": {
+		"prefix": "DWORD_TO_ULINT",
+		"body": [
+			"DWORD_TO_ULINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_BOOL": {
+		"prefix": "DWORD_TO_BOOL",
+		"body": [
+			"DWORD_TO_BOOL(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_TIME": {
+		"prefix": "DWORD_TO_TIME",
+		"body": [
+			"DWORD_TO_TIME(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DWORD_TO_INT": {
+		"prefix": "DWORD_TO_INT",
+		"body": [
+			"DWORD_TO_INT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_REAL": {
+		"prefix": "DT_TO_REAL",
+		"body": [
+			"DT_TO_REAL(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_SINT": {
+		"prefix": "DT_TO_SINT",
+		"body": [
+			"DT_TO_SINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_LINT": {
+		"prefix": "DT_TO_LINT",
+		"body": [
+			"DT_TO_LINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_DINT": {
+		"prefix": "DT_TO_DINT",
+		"body": [
+			"DT_TO_DINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_DWORD": {
+		"prefix": "DT_TO_DWORD",
+		"body": [
+			"DT_TO_DWORD(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_UDINT": {
+		"prefix": "DT_TO_UDINT",
+		"body": [
+			"DT_TO_UDINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_WORD": {
+		"prefix": "DT_TO_WORD",
+		"body": [
+			"DT_TO_WORD(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_STRING": {
+		"prefix": "DT_TO_STRING",
+		"body": [
+			"DT_TO_STRING(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_LWORD": {
+		"prefix": "DT_TO_LWORD",
+		"body": [
+			"DT_TO_LWORD(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_UINT": {
+		"prefix": "DT_TO_UINT",
+		"body": [
+			"DT_TO_UINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_LREAL": {
+		"prefix": "DT_TO_LREAL",
+		"body": [
+			"DT_TO_LREAL(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_BYTE": {
+		"prefix": "DT_TO_BYTE",
+		"body": [
+			"DT_TO_BYTE(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_USINT": {
+		"prefix": "DT_TO_USINT",
+		"body": [
+			"DT_TO_USINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_ULINT": {
+		"prefix": "DT_TO_ULINT",
+		"body": [
+			"DT_TO_ULINT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"DT_TO_INT": {
+		"prefix": "DT_TO_INT",
+		"body": [
+			"DT_TO_INT(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_REAL": {
+		"prefix": "TOD_TO_REAL",
+		"body": [
+			"TOD_TO_REAL(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_SINT": {
+		"prefix": "TOD_TO_SINT",
+		"body": [
+			"TOD_TO_SINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_LINT": {
+		"prefix": "TOD_TO_LINT",
+		"body": [
+			"TOD_TO_LINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_DINT": {
+		"prefix": "TOD_TO_DINT",
+		"body": [
+			"TOD_TO_DINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_DWORD": {
+		"prefix": "TOD_TO_DWORD",
+		"body": [
+			"TOD_TO_DWORD(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_UDINT": {
+		"prefix": "TOD_TO_UDINT",
+		"body": [
+			"TOD_TO_UDINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_WORD": {
+		"prefix": "TOD_TO_WORD",
+		"body": [
+			"TOD_TO_WORD(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_STRING": {
+		"prefix": "TOD_TO_STRING",
+		"body": [
+			"TOD_TO_STRING(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_LWORD": {
+		"prefix": "TOD_TO_LWORD",
+		"body": [
+			"TOD_TO_LWORD(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_UINT": {
+		"prefix": "TOD_TO_UINT",
+		"body": [
+			"TOD_TO_UINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_LREAL": {
+		"prefix": "TOD_TO_LREAL",
+		"body": [
+			"TOD_TO_LREAL(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_BYTE": {
+		"prefix": "TOD_TO_BYTE",
+		"body": [
+			"TOD_TO_BYTE(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_USINT": {
+		"prefix": "TOD_TO_USINT",
+		"body": [
+			"TOD_TO_USINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_ULINT": {
+		"prefix": "TOD_TO_ULINT",
+		"body": [
+			"TOD_TO_ULINT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TOD_TO_INT": {
+		"prefix": "TOD_TO_INT",
+		"body": [
+			"TOD_TO_INT(",
+			"\tIN := ${1:(*TOD*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_REAL": {
+		"prefix": "UDINT_TO_REAL",
+		"body": [
+			"UDINT_TO_REAL(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_SINT": {
+		"prefix": "UDINT_TO_SINT",
+		"body": [
+			"UDINT_TO_SINT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_LINT": {
+		"prefix": "UDINT_TO_LINT",
+		"body": [
+			"UDINT_TO_LINT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_DINT": {
+		"prefix": "UDINT_TO_DINT",
+		"body": [
+			"UDINT_TO_DINT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_DATE": {
+		"prefix": "UDINT_TO_DATE",
+		"body": [
+			"UDINT_TO_DATE(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_DWORD": {
+		"prefix": "UDINT_TO_DWORD",
+		"body": [
+			"UDINT_TO_DWORD(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_DT": {
+		"prefix": "UDINT_TO_DT",
+		"body": [
+			"UDINT_TO_DT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_TOD": {
+		"prefix": "UDINT_TO_TOD",
+		"body": [
+			"UDINT_TO_TOD(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_WORD": {
+		"prefix": "UDINT_TO_WORD",
+		"body": [
+			"UDINT_TO_WORD(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_STRING": {
+		"prefix": "UDINT_TO_STRING",
+		"body": [
+			"UDINT_TO_STRING(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_LWORD": {
+		"prefix": "UDINT_TO_LWORD",
+		"body": [
+			"UDINT_TO_LWORD(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_UINT": {
+		"prefix": "UDINT_TO_UINT",
+		"body": [
+			"UDINT_TO_UINT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_LREAL": {
+		"prefix": "UDINT_TO_LREAL",
+		"body": [
+			"UDINT_TO_LREAL(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_BYTE": {
+		"prefix": "UDINT_TO_BYTE",
+		"body": [
+			"UDINT_TO_BYTE(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_USINT": {
+		"prefix": "UDINT_TO_USINT",
+		"body": [
+			"UDINT_TO_USINT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_ULINT": {
+		"prefix": "UDINT_TO_ULINT",
+		"body": [
+			"UDINT_TO_ULINT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_BOOL": {
+		"prefix": "UDINT_TO_BOOL",
+		"body": [
+			"UDINT_TO_BOOL(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_TIME": {
+		"prefix": "UDINT_TO_TIME",
+		"body": [
+			"UDINT_TO_TIME(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UDINT_TO_INT": {
+		"prefix": "UDINT_TO_INT",
+		"body": [
+			"UDINT_TO_INT(",
+			"\tIN := ${1:(*UDINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_REAL": {
+		"prefix": "WORD_TO_REAL",
+		"body": [
+			"WORD_TO_REAL(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_SINT": {
+		"prefix": "WORD_TO_SINT",
+		"body": [
+			"WORD_TO_SINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_LINT": {
+		"prefix": "WORD_TO_LINT",
+		"body": [
+			"WORD_TO_LINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_DINT": {
+		"prefix": "WORD_TO_DINT",
+		"body": [
+			"WORD_TO_DINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_DATE": {
+		"prefix": "WORD_TO_DATE",
+		"body": [
+			"WORD_TO_DATE(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_DWORD": {
+		"prefix": "WORD_TO_DWORD",
+		"body": [
+			"WORD_TO_DWORD(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_DT": {
+		"prefix": "WORD_TO_DT",
+		"body": [
+			"WORD_TO_DT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_TOD": {
+		"prefix": "WORD_TO_TOD",
+		"body": [
+			"WORD_TO_TOD(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_UDINT": {
+		"prefix": "WORD_TO_UDINT",
+		"body": [
+			"WORD_TO_UDINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_STRING": {
+		"prefix": "WORD_TO_STRING",
+		"body": [
+			"WORD_TO_STRING(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_LWORD": {
+		"prefix": "WORD_TO_LWORD",
+		"body": [
+			"WORD_TO_LWORD(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_UINT": {
+		"prefix": "WORD_TO_UINT",
+		"body": [
+			"WORD_TO_UINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_LREAL": {
+		"prefix": "WORD_TO_LREAL",
+		"body": [
+			"WORD_TO_LREAL(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_BYTE": {
+		"prefix": "WORD_TO_BYTE",
+		"body": [
+			"WORD_TO_BYTE(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_USINT": {
+		"prefix": "WORD_TO_USINT",
+		"body": [
+			"WORD_TO_USINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_ULINT": {
+		"prefix": "WORD_TO_ULINT",
+		"body": [
+			"WORD_TO_ULINT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_BOOL": {
+		"prefix": "WORD_TO_BOOL",
+		"body": [
+			"WORD_TO_BOOL(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_TIME": {
+		"prefix": "WORD_TO_TIME",
+		"body": [
+			"WORD_TO_TIME(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"WORD_TO_INT": {
+		"prefix": "WORD_TO_INT",
+		"body": [
+			"WORD_TO_INT(",
+			"\tIN := ${1:(*WORD*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_REAL": {
+		"prefix": "STRING_TO_REAL",
+		"body": [
+			"STRING_TO_REAL(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_SINT": {
+		"prefix": "STRING_TO_SINT",
+		"body": [
+			"STRING_TO_SINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_LINT": {
+		"prefix": "STRING_TO_LINT",
+		"body": [
+			"STRING_TO_LINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_DINT": {
+		"prefix": "STRING_TO_DINT",
+		"body": [
+			"STRING_TO_DINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_DATE": {
+		"prefix": "STRING_TO_DATE",
+		"body": [
+			"STRING_TO_DATE(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_DWORD": {
+		"prefix": "STRING_TO_DWORD",
+		"body": [
+			"STRING_TO_DWORD(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_DT": {
+		"prefix": "STRING_TO_DT",
+		"body": [
+			"STRING_TO_DT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_TOD": {
+		"prefix": "STRING_TO_TOD",
+		"body": [
+			"STRING_TO_TOD(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_UDINT": {
+		"prefix": "STRING_TO_UDINT",
+		"body": [
+			"STRING_TO_UDINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_WORD": {
+		"prefix": "STRING_TO_WORD",
+		"body": [
+			"STRING_TO_WORD(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_LWORD": {
+		"prefix": "STRING_TO_LWORD",
+		"body": [
+			"STRING_TO_LWORD(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_UINT": {
+		"prefix": "STRING_TO_UINT",
+		"body": [
+			"STRING_TO_UINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_LREAL": {
+		"prefix": "STRING_TO_LREAL",
+		"body": [
+			"STRING_TO_LREAL(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_BYTE": {
+		"prefix": "STRING_TO_BYTE",
+		"body": [
+			"STRING_TO_BYTE(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_USINT": {
+		"prefix": "STRING_TO_USINT",
+		"body": [
+			"STRING_TO_USINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_ULINT": {
+		"prefix": "STRING_TO_ULINT",
+		"body": [
+			"STRING_TO_ULINT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_BOOL": {
+		"prefix": "STRING_TO_BOOL",
+		"body": [
+			"STRING_TO_BOOL(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_TIME": {
+		"prefix": "STRING_TO_TIME",
+		"body": [
+			"STRING_TO_TIME(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"STRING_TO_INT": {
+		"prefix": "STRING_TO_INT",
+		"body": [
+			"STRING_TO_INT(",
+			"\tIN := ${1:(*STRING*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_REAL": {
+		"prefix": "LWORD_TO_REAL",
+		"body": [
+			"LWORD_TO_REAL(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_SINT": {
+		"prefix": "LWORD_TO_SINT",
+		"body": [
+			"LWORD_TO_SINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_LINT": {
+		"prefix": "LWORD_TO_LINT",
+		"body": [
+			"LWORD_TO_LINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_DINT": {
+		"prefix": "LWORD_TO_DINT",
+		"body": [
+			"LWORD_TO_DINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_DATE": {
+		"prefix": "LWORD_TO_DATE",
+		"body": [
+			"LWORD_TO_DATE(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_DWORD": {
+		"prefix": "LWORD_TO_DWORD",
+		"body": [
+			"LWORD_TO_DWORD(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_DT": {
+		"prefix": "LWORD_TO_DT",
+		"body": [
+			"LWORD_TO_DT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_TOD": {
+		"prefix": "LWORD_TO_TOD",
+		"body": [
+			"LWORD_TO_TOD(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_UDINT": {
+		"prefix": "LWORD_TO_UDINT",
+		"body": [
+			"LWORD_TO_UDINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_WORD": {
+		"prefix": "LWORD_TO_WORD",
+		"body": [
+			"LWORD_TO_WORD(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_STRING": {
+		"prefix": "LWORD_TO_STRING",
+		"body": [
+			"LWORD_TO_STRING(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_UINT": {
+		"prefix": "LWORD_TO_UINT",
+		"body": [
+			"LWORD_TO_UINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_LREAL": {
+		"prefix": "LWORD_TO_LREAL",
+		"body": [
+			"LWORD_TO_LREAL(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_BYTE": {
+		"prefix": "LWORD_TO_BYTE",
+		"body": [
+			"LWORD_TO_BYTE(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_USINT": {
+		"prefix": "LWORD_TO_USINT",
+		"body": [
+			"LWORD_TO_USINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_ULINT": {
+		"prefix": "LWORD_TO_ULINT",
+		"body": [
+			"LWORD_TO_ULINT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_BOOL": {
+		"prefix": "LWORD_TO_BOOL",
+		"body": [
+			"LWORD_TO_BOOL(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_TIME": {
+		"prefix": "LWORD_TO_TIME",
+		"body": [
+			"LWORD_TO_TIME(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LWORD_TO_INT": {
+		"prefix": "LWORD_TO_INT",
+		"body": [
+			"LWORD_TO_INT(",
+			"\tIN := ${1:(*LWORD*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_REAL": {
+		"prefix": "UINT_TO_REAL",
+		"body": [
+			"UINT_TO_REAL(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_SINT": {
+		"prefix": "UINT_TO_SINT",
+		"body": [
+			"UINT_TO_SINT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_LINT": {
+		"prefix": "UINT_TO_LINT",
+		"body": [
+			"UINT_TO_LINT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_DINT": {
+		"prefix": "UINT_TO_DINT",
+		"body": [
+			"UINT_TO_DINT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_DATE": {
+		"prefix": "UINT_TO_DATE",
+		"body": [
+			"UINT_TO_DATE(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_DWORD": {
+		"prefix": "UINT_TO_DWORD",
+		"body": [
+			"UINT_TO_DWORD(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_DT": {
+		"prefix": "UINT_TO_DT",
+		"body": [
+			"UINT_TO_DT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_TOD": {
+		"prefix": "UINT_TO_TOD",
+		"body": [
+			"UINT_TO_TOD(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_UDINT": {
+		"prefix": "UINT_TO_UDINT",
+		"body": [
+			"UINT_TO_UDINT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_WORD": {
+		"prefix": "UINT_TO_WORD",
+		"body": [
+			"UINT_TO_WORD(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_STRING": {
+		"prefix": "UINT_TO_STRING",
+		"body": [
+			"UINT_TO_STRING(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_LWORD": {
+		"prefix": "UINT_TO_LWORD",
+		"body": [
+			"UINT_TO_LWORD(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_LREAL": {
+		"prefix": "UINT_TO_LREAL",
+		"body": [
+			"UINT_TO_LREAL(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_BYTE": {
+		"prefix": "UINT_TO_BYTE",
+		"body": [
+			"UINT_TO_BYTE(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_USINT": {
+		"prefix": "UINT_TO_USINT",
+		"body": [
+			"UINT_TO_USINT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_ULINT": {
+		"prefix": "UINT_TO_ULINT",
+		"body": [
+			"UINT_TO_ULINT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_BOOL": {
+		"prefix": "UINT_TO_BOOL",
+		"body": [
+			"UINT_TO_BOOL(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_TIME": {
+		"prefix": "UINT_TO_TIME",
+		"body": [
+			"UINT_TO_TIME(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"UINT_TO_INT": {
+		"prefix": "UINT_TO_INT",
+		"body": [
+			"UINT_TO_INT(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_REAL": {
+		"prefix": "LREAL_TO_REAL",
+		"body": [
+			"LREAL_TO_REAL(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_SINT": {
+		"prefix": "LREAL_TO_SINT",
+		"body": [
+			"LREAL_TO_SINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_LINT": {
+		"prefix": "LREAL_TO_LINT",
+		"body": [
+			"LREAL_TO_LINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_DINT": {
+		"prefix": "LREAL_TO_DINT",
+		"body": [
+			"LREAL_TO_DINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_DATE": {
+		"prefix": "LREAL_TO_DATE",
+		"body": [
+			"LREAL_TO_DATE(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_DWORD": {
+		"prefix": "LREAL_TO_DWORD",
+		"body": [
+			"LREAL_TO_DWORD(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_DT": {
+		"prefix": "LREAL_TO_DT",
+		"body": [
+			"LREAL_TO_DT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_TOD": {
+		"prefix": "LREAL_TO_TOD",
+		"body": [
+			"LREAL_TO_TOD(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_UDINT": {
+		"prefix": "LREAL_TO_UDINT",
+		"body": [
+			"LREAL_TO_UDINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_WORD": {
+		"prefix": "LREAL_TO_WORD",
+		"body": [
+			"LREAL_TO_WORD(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_STRING": {
+		"prefix": "LREAL_TO_STRING",
+		"body": [
+			"LREAL_TO_STRING(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_LWORD": {
+		"prefix": "LREAL_TO_LWORD",
+		"body": [
+			"LREAL_TO_LWORD(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_UINT": {
+		"prefix": "LREAL_TO_UINT",
+		"body": [
+			"LREAL_TO_UINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_BYTE": {
+		"prefix": "LREAL_TO_BYTE",
+		"body": [
+			"LREAL_TO_BYTE(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_USINT": {
+		"prefix": "LREAL_TO_USINT",
+		"body": [
+			"LREAL_TO_USINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_ULINT": {
+		"prefix": "LREAL_TO_ULINT",
+		"body": [
+			"LREAL_TO_ULINT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_BOOL": {
+		"prefix": "LREAL_TO_BOOL",
+		"body": [
+			"LREAL_TO_BOOL(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_TIME": {
+		"prefix": "LREAL_TO_TIME",
+		"body": [
+			"LREAL_TO_TIME(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"LREAL_TO_INT": {
+		"prefix": "LREAL_TO_INT",
+		"body": [
+			"LREAL_TO_INT(",
+			"\tIN := ${1:(*LREAL*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_REAL": {
+		"prefix": "BYTE_TO_REAL",
+		"body": [
+			"BYTE_TO_REAL(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_SINT": {
+		"prefix": "BYTE_TO_SINT",
+		"body": [
+			"BYTE_TO_SINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_LINT": {
+		"prefix": "BYTE_TO_LINT",
+		"body": [
+			"BYTE_TO_LINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_DINT": {
+		"prefix": "BYTE_TO_DINT",
+		"body": [
+			"BYTE_TO_DINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_DATE": {
+		"prefix": "BYTE_TO_DATE",
+		"body": [
+			"BYTE_TO_DATE(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_DWORD": {
+		"prefix": "BYTE_TO_DWORD",
+		"body": [
+			"BYTE_TO_DWORD(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_DT": {
+		"prefix": "BYTE_TO_DT",
+		"body": [
+			"BYTE_TO_DT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_TOD": {
+		"prefix": "BYTE_TO_TOD",
+		"body": [
+			"BYTE_TO_TOD(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_UDINT": {
+		"prefix": "BYTE_TO_UDINT",
+		"body": [
+			"BYTE_TO_UDINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_WORD": {
+		"prefix": "BYTE_TO_WORD",
+		"body": [
+			"BYTE_TO_WORD(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_STRING": {
+		"prefix": "BYTE_TO_STRING",
+		"body": [
+			"BYTE_TO_STRING(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_LWORD": {
+		"prefix": "BYTE_TO_LWORD",
+		"body": [
+			"BYTE_TO_LWORD(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_UINT": {
+		"prefix": "BYTE_TO_UINT",
+		"body": [
+			"BYTE_TO_UINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_LREAL": {
+		"prefix": "BYTE_TO_LREAL",
+		"body": [
+			"BYTE_TO_LREAL(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_USINT": {
+		"prefix": "BYTE_TO_USINT",
+		"body": [
+			"BYTE_TO_USINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_ULINT": {
+		"prefix": "BYTE_TO_ULINT",
+		"body": [
+			"BYTE_TO_ULINT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_BOOL": {
+		"prefix": "BYTE_TO_BOOL",
+		"body": [
+			"BYTE_TO_BOOL(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_TIME": {
+		"prefix": "BYTE_TO_TIME",
+		"body": [
+			"BYTE_TO_TIME(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BYTE_TO_INT": {
+		"prefix": "BYTE_TO_INT",
+		"body": [
+			"BYTE_TO_INT(",
+			"\tIN := ${1:(*BYTE*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_REAL": {
+		"prefix": "USINT_TO_REAL",
+		"body": [
+			"USINT_TO_REAL(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_SINT": {
+		"prefix": "USINT_TO_SINT",
+		"body": [
+			"USINT_TO_SINT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_LINT": {
+		"prefix": "USINT_TO_LINT",
+		"body": [
+			"USINT_TO_LINT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_DINT": {
+		"prefix": "USINT_TO_DINT",
+		"body": [
+			"USINT_TO_DINT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_DATE": {
+		"prefix": "USINT_TO_DATE",
+		"body": [
+			"USINT_TO_DATE(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_DWORD": {
+		"prefix": "USINT_TO_DWORD",
+		"body": [
+			"USINT_TO_DWORD(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_DT": {
+		"prefix": "USINT_TO_DT",
+		"body": [
+			"USINT_TO_DT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_TOD": {
+		"prefix": "USINT_TO_TOD",
+		"body": [
+			"USINT_TO_TOD(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_UDINT": {
+		"prefix": "USINT_TO_UDINT",
+		"body": [
+			"USINT_TO_UDINT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_WORD": {
+		"prefix": "USINT_TO_WORD",
+		"body": [
+			"USINT_TO_WORD(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_STRING": {
+		"prefix": "USINT_TO_STRING",
+		"body": [
+			"USINT_TO_STRING(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_LWORD": {
+		"prefix": "USINT_TO_LWORD",
+		"body": [
+			"USINT_TO_LWORD(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_UINT": {
+		"prefix": "USINT_TO_UINT",
+		"body": [
+			"USINT_TO_UINT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_LREAL": {
+		"prefix": "USINT_TO_LREAL",
+		"body": [
+			"USINT_TO_LREAL(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_BYTE": {
+		"prefix": "USINT_TO_BYTE",
+		"body": [
+			"USINT_TO_BYTE(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_ULINT": {
+		"prefix": "USINT_TO_ULINT",
+		"body": [
+			"USINT_TO_ULINT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_BOOL": {
+		"prefix": "USINT_TO_BOOL",
+		"body": [
+			"USINT_TO_BOOL(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_TIME": {
+		"prefix": "USINT_TO_TIME",
+		"body": [
+			"USINT_TO_TIME(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"USINT_TO_INT": {
+		"prefix": "USINT_TO_INT",
+		"body": [
+			"USINT_TO_INT(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_REAL": {
+		"prefix": "ULINT_TO_REAL",
+		"body": [
+			"ULINT_TO_REAL(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_SINT": {
+		"prefix": "ULINT_TO_SINT",
+		"body": [
+			"ULINT_TO_SINT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_LINT": {
+		"prefix": "ULINT_TO_LINT",
+		"body": [
+			"ULINT_TO_LINT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_DINT": {
+		"prefix": "ULINT_TO_DINT",
+		"body": [
+			"ULINT_TO_DINT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_DATE": {
+		"prefix": "ULINT_TO_DATE",
+		"body": [
+			"ULINT_TO_DATE(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_DWORD": {
+		"prefix": "ULINT_TO_DWORD",
+		"body": [
+			"ULINT_TO_DWORD(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_DT": {
+		"prefix": "ULINT_TO_DT",
+		"body": [
+			"ULINT_TO_DT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_TOD": {
+		"prefix": "ULINT_TO_TOD",
+		"body": [
+			"ULINT_TO_TOD(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_UDINT": {
+		"prefix": "ULINT_TO_UDINT",
+		"body": [
+			"ULINT_TO_UDINT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_WORD": {
+		"prefix": "ULINT_TO_WORD",
+		"body": [
+			"ULINT_TO_WORD(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_STRING": {
+		"prefix": "ULINT_TO_STRING",
+		"body": [
+			"ULINT_TO_STRING(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_LWORD": {
+		"prefix": "ULINT_TO_LWORD",
+		"body": [
+			"ULINT_TO_LWORD(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_UINT": {
+		"prefix": "ULINT_TO_UINT",
+		"body": [
+			"ULINT_TO_UINT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_LREAL": {
+		"prefix": "ULINT_TO_LREAL",
+		"body": [
+			"ULINT_TO_LREAL(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_BYTE": {
+		"prefix": "ULINT_TO_BYTE",
+		"body": [
+			"ULINT_TO_BYTE(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_USINT": {
+		"prefix": "ULINT_TO_USINT",
+		"body": [
+			"ULINT_TO_USINT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_BOOL": {
+		"prefix": "ULINT_TO_BOOL",
+		"body": [
+			"ULINT_TO_BOOL(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_TIME": {
+		"prefix": "ULINT_TO_TIME",
+		"body": [
+			"ULINT_TO_TIME(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"ULINT_TO_INT": {
+		"prefix": "ULINT_TO_INT",
+		"body": [
+			"ULINT_TO_INT(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_REAL": {
+		"prefix": "BOOL_TO_REAL",
+		"body": [
+			"BOOL_TO_REAL(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_SINT": {
+		"prefix": "BOOL_TO_SINT",
+		"body": [
+			"BOOL_TO_SINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_LINT": {
+		"prefix": "BOOL_TO_LINT",
+		"body": [
+			"BOOL_TO_LINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_DINT": {
+		"prefix": "BOOL_TO_DINT",
+		"body": [
+			"BOOL_TO_DINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_DWORD": {
+		"prefix": "BOOL_TO_DWORD",
+		"body": [
+			"BOOL_TO_DWORD(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_UDINT": {
+		"prefix": "BOOL_TO_UDINT",
+		"body": [
+			"BOOL_TO_UDINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_WORD": {
+		"prefix": "BOOL_TO_WORD",
+		"body": [
+			"BOOL_TO_WORD(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_STRING": {
+		"prefix": "BOOL_TO_STRING",
+		"body": [
+			"BOOL_TO_STRING(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_LWORD": {
+		"prefix": "BOOL_TO_LWORD",
+		"body": [
+			"BOOL_TO_LWORD(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_UINT": {
+		"prefix": "BOOL_TO_UINT",
+		"body": [
+			"BOOL_TO_UINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_LREAL": {
+		"prefix": "BOOL_TO_LREAL",
+		"body": [
+			"BOOL_TO_LREAL(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_BYTE": {
+		"prefix": "BOOL_TO_BYTE",
+		"body": [
+			"BOOL_TO_BYTE(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_USINT": {
+		"prefix": "BOOL_TO_USINT",
+		"body": [
+			"BOOL_TO_USINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_ULINT": {
+		"prefix": "BOOL_TO_ULINT",
+		"body": [
+			"BOOL_TO_ULINT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"BOOL_TO_INT": {
+		"prefix": "BOOL_TO_INT",
+		"body": [
+			"BOOL_TO_INT(",
+			"\tIN := ${1:(*BOOL*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_REAL": {
+		"prefix": "TIME_TO_REAL",
+		"body": [
+			"TIME_TO_REAL(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_SINT": {
+		"prefix": "TIME_TO_SINT",
+		"body": [
+			"TIME_TO_SINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_LINT": {
+		"prefix": "TIME_TO_LINT",
+		"body": [
+			"TIME_TO_LINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_DINT": {
+		"prefix": "TIME_TO_DINT",
+		"body": [
+			"TIME_TO_DINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_DWORD": {
+		"prefix": "TIME_TO_DWORD",
+		"body": [
+			"TIME_TO_DWORD(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_UDINT": {
+		"prefix": "TIME_TO_UDINT",
+		"body": [
+			"TIME_TO_UDINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_WORD": {
+		"prefix": "TIME_TO_WORD",
+		"body": [
+			"TIME_TO_WORD(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_STRING": {
+		"prefix": "TIME_TO_STRING",
+		"body": [
+			"TIME_TO_STRING(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_LWORD": {
+		"prefix": "TIME_TO_LWORD",
+		"body": [
+			"TIME_TO_LWORD(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_UINT": {
+		"prefix": "TIME_TO_UINT",
+		"body": [
+			"TIME_TO_UINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_LREAL": {
+		"prefix": "TIME_TO_LREAL",
+		"body": [
+			"TIME_TO_LREAL(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_BYTE": {
+		"prefix": "TIME_TO_BYTE",
+		"body": [
+			"TIME_TO_BYTE(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_USINT": {
+		"prefix": "TIME_TO_USINT",
+		"body": [
+			"TIME_TO_USINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_ULINT": {
+		"prefix": "TIME_TO_ULINT",
+		"body": [
+			"TIME_TO_ULINT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TIME_TO_INT": {
+		"prefix": "TIME_TO_INT",
+		"body": [
+			"TIME_TO_INT(",
+			"\tIN := ${1:(*TIME*)},",
+			"\tOUT => ${2:(*INT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_REAL": {
+		"prefix": "INT_TO_REAL",
+		"body": [
+			"INT_TO_REAL(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*REAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_SINT": {
+		"prefix": "INT_TO_SINT",
+		"body": [
+			"INT_TO_SINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*SINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_LINT": {
+		"prefix": "INT_TO_LINT",
+		"body": [
+			"INT_TO_LINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*LINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_DINT": {
+		"prefix": "INT_TO_DINT",
+		"body": [
+			"INT_TO_DINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*DINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_DATE": {
+		"prefix": "INT_TO_DATE",
+		"body": [
+			"INT_TO_DATE(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_DWORD": {
+		"prefix": "INT_TO_DWORD",
+		"body": [
+			"INT_TO_DWORD(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_DT": {
+		"prefix": "INT_TO_DT",
+		"body": [
+			"INT_TO_DT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*DT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_TOD": {
+		"prefix": "INT_TO_TOD",
+		"body": [
+			"INT_TO_TOD(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_UDINT": {
+		"prefix": "INT_TO_UDINT",
+		"body": [
+			"INT_TO_UDINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_WORD": {
+		"prefix": "INT_TO_WORD",
+		"body": [
+			"INT_TO_WORD(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*WORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_STRING": {
+		"prefix": "INT_TO_STRING",
+		"body": [
+			"INT_TO_STRING(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*STRING*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_LWORD": {
+		"prefix": "INT_TO_LWORD",
+		"body": [
+			"INT_TO_LWORD(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*LWORD*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_UINT": {
+		"prefix": "INT_TO_UINT",
+		"body": [
+			"INT_TO_UINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_LREAL": {
+		"prefix": "INT_TO_LREAL",
+		"body": [
+			"INT_TO_LREAL(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*LREAL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_BYTE": {
+		"prefix": "INT_TO_BYTE",
+		"body": [
+			"INT_TO_BYTE(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*BYTE*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_USINT": {
+		"prefix": "INT_TO_USINT",
+		"body": [
+			"INT_TO_USINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_ULINT": {
+		"prefix": "INT_TO_ULINT",
+		"body": [
+			"INT_TO_ULINT(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_BOOL": {
+		"prefix": "INT_TO_BOOL",
+		"body": [
+			"INT_TO_BOOL(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*BOOL*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"INT_TO_TIME": {
+		"prefix": "INT_TO_TIME",
+		"body": [
+			"INT_TO_TIME(",
+			"\tIN := ${1:(*INT*)},",
+			"\tOUT => ${2:(*TIME*)};"
+		],
+		"description": "Data type conversion"
+	},
+	"TRUNC": {
+		"prefix": "TRUNC",
+		"body": [
+			"TRUNC(",
+			"\tIN := ${1:(*ANY_REAL*)},",
+			"\tOUT => ${2:(*ANY_INT*)};"
+		],
+		"description": "Rounding up/down"
+	},
+	"BCD_TO_UDINT": {
+		"prefix": "BCD_TO_UDINT",
+		"body": [
+			"BCD_TO_UDINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*UDINT*)};"
+		],
+		"description": "Conversion from BCD"
+	},
+	"BCD_TO_UINT": {
+		"prefix": "BCD_TO_UINT",
+		"body": [
+			"BCD_TO_UINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*UINT*)};"
+		],
+		"description": "Conversion from BCD"
+	},
+	"BCD_TO_ULINT": {
+		"prefix": "BCD_TO_ULINT",
+		"body": [
+			"BCD_TO_ULINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*ULINT*)};"
+		],
+		"description": "Conversion from BCD"
+	},
+	"BCD_TO_USINT": {
+		"prefix": "BCD_TO_USINT",
+		"body": [
+			"BCD_TO_USINT(",
+			"\tIN := ${1:(*DWORD*)},",
+			"\tOUT => ${2:(*USINT*)};"
+		],
+		"description": "Conversion from BCD"
+	},
+	"UDINT_TO_BCD": {
+		"prefix": "UDINT_TO_BCD",
+		"body": [
+			"UDINT_TO_BCD(",
+			"\tIN := ${1:(*DINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Conversion to BCD"
+	},
+	"UINT_TO_BCD": {
+		"prefix": "UINT_TO_BCD",
+		"body": [
+			"UINT_TO_BCD(",
+			"\tIN := ${1:(*UINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Conversion to BCD"
+	},
+	"USINT_TO_BCD": {
+		"prefix": "USINT_TO_BCD",
+		"body": [
+			"USINT_TO_BCD(",
+			"\tIN := ${1:(*USINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Conversion to BCD"
+	},
+	"ULINT_TO_BCD": {
+		"prefix": "ULINT_TO_BCD",
+		"body": [
+			"ULINT_TO_BCD(",
+			"\tIN := ${1:(*ULINT*)},",
+			"\tOUT => ${2:(*DWORD*)};"
+		],
+		"description": "Conversion to BCD"
+	},
+	"DATE_AND_TIME_TO_TIME_OF_DAY": {
+		"prefix": "DATE_AND_TIME_TO_TIME_OF_DAY",
+		"body": [
+			"DATE_AND_TIME_TO_TIME_OF_DAY(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*TOD*)};"
+		],
+		"description": "Conversion to time-of-day"
+	},
+	"DATE_AND_TIME_TO_DATE": {
+		"prefix": "DATE_AND_TIME_TO_DATE",
+		"body": [
+			"DATE_AND_TIME_TO_DATE(",
+			"\tIN := ${1:(*DT*)},",
+			"\tOUT => ${2:(*DATE*)};"
+		],
+		"description": "Conversion to date"
+	},
 	//==================================================
 	// Numerical
 	//==================================================
@@ -506,7 +3845,116 @@
 	//==================================================
 	// Time
 	//==================================================
-
+	"ADD TIME": {
+		"prefix": "ADD_TIME",
+		"body": [
+			"ADD_TIME(",
+			"\tIN1 := ${1: (*TIME*)},",
+			"\tIN2 := ${2: (*TIME*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Time addition"
+	},
+	"ADD TOD": {
+		"prefix": "ADD_TOD_TIME",
+		"body": [
+			"ADD_TOD_TIME(",
+			"\tIN1 := ${1: (*TOD*)},",
+			"\tIN2 := ${2: (*TIME*)},",
+			"\tOUT => ${3: (*TOD*)}"
+		],
+		"description": "Time-of-day addition"
+	},
+	"ADD DATE": {
+		"prefix": "ADD_DT_TIME",
+		"body": [
+			"ADD_DT_TIME(",
+			"\tIN1 := ${1: (*DT*)},",
+			"\tIN2 := ${2: (*TIME*)},",
+			"\tOUT => ${3: (*DT*)}"
+		],
+		"description": "Date addition"
+	},
+	"MULTIME": {
+		"prefix": "MULTIME",
+		"body": [
+			"MULTIME(",
+			"\tIN1 := ${1: (*TIME*)},",
+			"\tIN2 := ${2: (*ANY_NUM*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Time multiplication"
+	},
+	"SUB_TIME": {
+		"prefix": "SUB_TIME",
+		"body": [
+			"SUB_TIME(",
+			"\tIN1 := ${1: (*TIME*)},",
+			"\tIN2 := ${2: (*TIME*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Time subtraction"
+	},
+	"SUB_DATE_DATE": {
+		"prefix": "SUB_DATE_DATE",
+		"body": [
+			"SUB_DATE_DATE(",
+			"\tIN1 := ${1: (*DATE*)},",
+			"\tIN2 := ${2: (*DATE*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Date subtraction"
+	}, 
+	"SUB_TOD_TIME": {
+		"prefix": "SUB_TOD_TIME",
+		"body": [
+			"SUB_TOD_TIME(",
+			"\tIN1 := ${1: (*TOD*)},",
+			"\tIN2 := ${2: (*TIME*)},",
+			"\tOUT => ${3: (*TOD*)}"
+		],
+		"description": "Time-of-day subtraction"
+	},
+	"SUB_TOD_TOD": {
+		"prefix": "SUB_TOD_TOD",
+		"body": [
+			"SUB_TOD_TOD(",
+			"\tIN1 := ${1: (*TOD*)},",
+			"\tIN2 := ${2: (*TOD*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Time-of-day subtraction"
+	},
+	"SUB_DT_TIME": {
+		"prefix": "SUB_DT_TIME",
+		"body": [
+			"SUB_DT_TIME(",
+			"\tIN1 := ${1: (*DT*)},",
+			"\tIN2 := ${2: (*TIME*)},",
+			"\tOUT => ${3: (*DT*)}"
+		],
+		"description": "Date and time subtraction"
+	},
+	"SUB_DT_TIME": {
+		"prefix": "SUB_DT_TIME",
+		"body": [
+			"SUB_DT_TIME(",
+			"\tIN1 := ${1: (*DT*)},",
+			"\tIN2 := ${2: (*DT*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Date and time subtraction"
+	},
+	"DIVTIME": {
+		"prefix": "DIVTIME",
+		"body": [
+			"DIVTIME(",
+			"\tIN1 := ${1: (*TIME*)},",
+			"\tIN2 := ${2: (*ANY_NUM*)},",
+			"\tOUT => ${3: (*TIME*)}"
+		],
+		"description": "Time division"
+	},  
 	//==================================================
 	// Bit-shift
 	//==================================================
@@ -650,6 +4098,69 @@
 		"description": "Multiplexer (select 1 of N)."
 	},
 	//==================================================
+	// Comparison
+	//==================================================
+	"GT": {
+		"prefix": "GT",
+		"body": [
+			"GT(",
+			"\tIN1 := ${1:(*ANY*)},",
+			"\tIN2 => ${2:(*ANY*)}",
+			"\tOUT => ${3:(*ANY*)});"
+		],
+		"description": "Greater than"
+	},
+	"GE": {
+		"prefix": "GE",
+		"body": [
+			"GE(",
+			"\tIN1 := ${1:(*ANY*)},",
+			"\tIN2 => ${2:(*ANY*)}",
+			"\tOUT => ${3:(*ANY*)});"
+		],
+		"description": "Greater or equal to"
+	},
+	"EQ": {
+		"prefix": "EQ",
+		"body": [
+			"EQ(",
+			"\tIN1 := ${1:(*ANY*)},",
+			"\tIN2 => ${2:(*ANY*)}",
+			"\tOUT => ${3:(*ANY*)});"
+		],
+		"description": "Equal to"
+	},
+	"LT": {
+		"prefix": "LT",
+		"body": [
+			"LT(",
+			"\tIN1 := ${1:(*ANY*)},",
+			"\tIN2 => ${2:(*ANY*)}",
+			"\tOUT => ${3:(*ANY*)});"
+		],
+		"description": "Less than"
+	},
+	"LE": {
+		"prefix": "LE",
+		"body": [
+			"LE(",
+			"\tIN1 := ${1:(*ANY*)},",
+			"\tIN2 => ${2:(*ANY*)}",
+			"\tOUT => ${3:(*ANY*)});"
+		],
+		"description": "Less or equal to"
+	},
+	"NE": {
+		"prefix": "NE",
+		"body": [
+			"NE(",
+			"\tIN1 := ${1:(*ANY*)},",
+			"\tIN2 => ${2:(*ANY*)}",
+			"\tOUT => ${3:(*ANY*)});"
+		],
+		"description": "Not equal to"
+	},
+	//==================================================
 	// Character string
 	//==================================================
 	"LEN": {
@@ -756,5 +4267,4 @@
 		],
 		"description": "Find position"
 	}
-
 }
